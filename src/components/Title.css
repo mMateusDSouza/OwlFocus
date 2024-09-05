@@ -1,0 +1,16 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title .logo_img{
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+.title h1{
+    font-size: 64px;
+    color: #FFFFFF;
+}
