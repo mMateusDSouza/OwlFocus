@@ -1,5 +1,5 @@
 import "./Title.css" 
-import logo from '../assets/WolLogo1.webp';
+import logo from '../../assets/WolLogo1.webp';
 
 const Title = () => {
     return (

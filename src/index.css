@@ -29,7 +29,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: linear-gradient(to top,#7630D9, #532473);
+  background: linear-gradient(to bottom,rgba(118, 48, 217, 1), rgba(83, 36, 115, 1));
 }
 
 h1 {

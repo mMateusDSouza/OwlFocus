@@ -1,0 +1,63 @@
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    animation: mudarCor 20s infinite;
+    
+}
+.clock .rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    height: 200px;
+    background-color: #D9D9D9;
+}
+
+.clock #colon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 200px;
+}
+
+.clock #colon .circle{
+    background-color: #D9D9D9;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+@keyframes mudarCor {
+    
+    0% {
+       color: #D90452;
+    }
+
+    20% {
+        color: #DF50F2;
+    }
+
+    40% {
+        color: #04C4D9;
+    }
+
+    60% {
+        color: #05F2F2;
+    }
+
+    80% {
+        color: #0BD904;
+    }
+
+    100% {
+        color: #D90452;
+    }
+
+}
