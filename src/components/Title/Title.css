@@ -3,13 +3,41 @@
     justify-content: center;
     align-items: center;
 }
-
-.title .logo_img{
+  
+.title .logo_img {
     width: 180px;
     height: 180px;
 }
-
-.title h1{
+  
+.title h1 {
     font-size: 64px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+    }
+    .title h1 {
+        font-size: 48px;
+    }
+    
+    .title .logo_img {
+        width: 120px;
+        height: 120px;
+    }
+}
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5em;
+    }
+    .title h1 {
+        font-size: 36px;
+      }
+    
+    .title .logo_img {
+        width: 90px;
+        height: 90px;
+    }
+  }
