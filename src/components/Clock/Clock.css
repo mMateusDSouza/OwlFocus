@@ -6,6 +6,7 @@
     font-size: 3em;
     font-weight: 900;
     animation: mudarCor 20s infinite;
+    text-shadow: 3px 3px 0px black;
   }
   
   .rectangle {
@@ -15,6 +16,7 @@
     width: 145px;
     height: 200px;
     background-color: #d9d9d9;
+    box-shadow: 5px 5px 2px;
   }
   
   #colon {
@@ -49,6 +51,7 @@
     margin: 0px 5px;
     height: 90%;
     font-size: 1.01em;
+    
   }
 
   .btn:hover{
