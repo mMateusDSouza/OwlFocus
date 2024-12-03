@@ -32,6 +32,7 @@ body {
   background: linear-gradient(180deg, #532473, #7630D9, #9140C9, #86F2FE, #56F2FE, #7630D9, #B0FFA0, #532473);
   background-size: 100% 200%;
   animation: moverFundo 90s linear infinite;
+  will-change: background-position;
 }
 
 h1 {
@@ -63,7 +64,19 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547;
   }
 
   a:hover {
@@ -90,20 +103,8 @@ button:focus-visible {
     background: linear-gradient(to bottom, #532473, #7630D9);
   }
 
-  20% {
-    background: linear-gradient(to bottom, #7630D9, #9140C9);
-  }
-
-  40% {
-    background: linear-gradient(to bottom, #9140C9, #86F2FE);
-  }
-
-  60% {
+  50% {
     background: linear-gradient(to bottom, #56F2FE, #7630D9);
-  }
-
-  80% {
-    background: linear-gradient(to bottom, #7630D9, #B0FFA0);
   }
 
   100% {
